@@ -11,11 +11,11 @@
 ### Folder Structure
 
 ```bash
-├── API Express   <-- BackEnd API to CRUD MySQL
+├── API Express   <-- BackEnd API CRUD + MySQL
 │   ├── index.js
 │   ├── package-lock.json
 │   └── package.json
-├── Book APP      <-- React Native Project
+├── Book APP      <-- React Native Project with API ExpressJS
 │   ├── App.js
 │   ├── app.json
 │   ├── assets
@@ -25,7 +25,7 @@
 │   ├── package-lock.json
 │   ├── package.json
 │   └── yarn.lock
-├── Book Dummy    <-- Initial Project Model
+├── Book Dummy     <-- React Native Project with DummyData can run without expressJS APIs
 │   ├── App.js
 │   ├── app.json
 │   ├── assets
@@ -33,7 +33,7 @@
 │   ├── index.js
 │   ├── package-lock.json
 │   └── package.json
-├── express_bookdb.sql  <-- Database file init
+├── express_bookdb.sql  <-- Database file
 └── readme.md           <-- Project Guide
 ```
 
