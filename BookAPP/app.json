@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "BookApp",
+    "slug": "bookapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "android": {
+      "usesCleartextTraffic": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.bluesky4047.BookApp"
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bluesky4047.BookApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [],
+    "extra": {
+      "API_URL": "http://192.168.1.71:3000/books",
+      "eas": {
+        "projectId": "b1ead6ae-7cc8-4593-a2f1-d74b98defcfb"
+      }
+    },
+    "owner": "ahmadhafidh"
+  }
+}
